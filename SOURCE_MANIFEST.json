@@ -1,0 +1,33 @@
+{
+  "source_repository": "serz4862/AiGenC",
+  "source_commit": "74c4534aeebaf4d1560dac9f64e52c3dd6ed6ecd",
+  "source_branch": "new",
+  "remote_verification": "Unavailable: connected GitHub app returns 404; provenance is from local Git objects, not a refreshed remote.",
+  "files": [
+    {
+      "review_path": "src/state-machine.ts",
+      "source_path": "backend/src/domain/pipeline/state-machine.ts",
+      "source_blob_sha": "0c0fc3569bca0bbe565a9780cf2aea54282d68e1",
+      "source_last_change_sha": "12a65010dd1d6b970cc13013adefe09664d51f1e",
+      "treatment": "Logic preserved; imports replaced with local review adapters.",
+      "sha256": "90691f1e03fce697c9d78924ab9690d6144ab1a9d7b25465682cc5bd05af082b"
+    },
+    {
+      "review_path": "src/types.ts",
+      "source_path": "backend/src/domain/pipeline/types.ts",
+      "source_blob_sha": "193282fde45e63c0b45f0371cdc0f8d24772ef54",
+      "source_last_change_sha": "12a65010dd1d6b970cc13013adefe09664d51f1e",
+      "treatment": "PIPELINE_FORWARD extracted; status type re-declared for dependency-free execution.",
+      "sha256": "ab99ecf6f969ea0327ec8d85ba491dfa58ef5ca1c1d4b84593697580ae1812d8"
+    },
+    {
+      "review_path": "tests/state-machine.test.ts",
+      "source_path": "backend/tests/pipeline-state-machine.test.ts",
+      "source_blob_sha": "a1e5efad4319e50e31d4015f63a49b71edd734aa",
+      "source_last_change_sha": "98b1397f6c9f36440fb28ea70319d4264a217b96",
+      "treatment": "Original five Jest scenarios adapted to four Node test groups; one explicit SENT-checkpoint regression added by Codex.",
+      "sha256": "40a97e1859af95ea8df7163fbb32135118d025346c8cd7e71f8c47056d0fb58b"
+    }
+  ],
+  "other_files": "Documentation, dependency shims and test harnesses were prepared with OpenAI Codex for this assessment; they are not evidence of previously shipped functionality."
+}
